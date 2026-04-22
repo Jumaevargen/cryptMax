@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./styles/main.css" />
+	<script src="./js/best.js" defer></script>
+	<script src="./js/explore-render.js" defer></script>
+	<script src="./js/hot-render.js" defer></script>
+	<title>NK-Full-Stack | DEVELOPER</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="header">
+				<img src="./images/headerLogo.svg" alt="HEADER_LOGO_TYPE" />
+				<nav>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="./basket.html">Basket</a>
+					</li>
+					<li>
+						<a href="#">Best seller</a>
+					</li>
+					<li>
+						<a href="./admin.html">Admin</a>
+					</li>
+				</nav>
+				<div class="header-form">
+					<div class="header-form-input">
+						<input type="text" placeholder="Search..." />
+						<ion-icon name="search-outline"></ion-icon>
+					</div>
+					<button><ion-icon name="log-in-outline"></ion-icon> Login</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<section id="mainContent">
+			<div class="container">
+				<div class="mainContent">
+					<div class="textContent">
+						<h5>CREATE, EXPLORE, COLLECT DIGITAL ART NFTs</h5>
+						<h1>Discover Your Digital <br> Art & Collect NFTs<h1>
+								<button>Explore <ion-icon name="arrow-forward-outline"></ion-icon></button>
+								<div class="usersContent">
+									<h2>19k+<br><span>Artwork</span></h2>
+									<h2>13k+<br><span>Auction</span></h2>
+									<h2>8k+<br><span>Artist</span></h2>
+								</div>
+					</div>
+					<div class="imgContent">
+						<img src="./images/mainContent.png" alt="">
+						<svg width="100" height="100" viewBox="0 0 100 100" fill="none"
+							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<circle cx="50" cy="50" r="50" fill="#3772FF" fill-opacity="0.47" />
+							<rect x="9.33334" y="10" width="81.3333" height="80" fill="url(#pattern0_24_2)" />
+							<path
+								d="M58.8333 50.0121C58.8333 50.644 58.6345 51.2782 58.2367 51.7861C58.1622 51.8858 57.8142 52.2965 57.5407 52.5638L57.3916 52.7096C55.3035 54.9234 50.1082 58.2527 47.4733 59.3196C47.4733 59.3439 45.9072 59.9781 45.1615 60H45.062C43.9186 60 42.8497 59.3706 42.3028 58.35C42.0045 57.7886 41.7311 56.1604 41.7062 56.1385C41.4825 54.678 41.3333 52.4423 41.3333 49.9879C41.3333 47.4144 41.4825 45.079 41.7559 43.6452C41.7559 43.6209 42.0294 42.3086 42.2034 41.8712C42.4768 41.2418 42.974 40.7047 43.5954 40.3645C44.0926 40.1239 44.6146 40 45.1615 40C45.7332 40.0267 46.8021 40.3888 47.2247 40.5589C50.0088 41.6282 55.3284 45.1276 57.3667 47.2661C57.7147 47.6063 58.0876 48.0219 58.187 48.1166C58.6096 48.6513 58.8333 49.3074 58.8333 50.0121Z"
+								fill="white" />
+							<defs>
+								<pattern id="pattern0_24_2" patternContentUnits="objectBoundingBox" width="1"
+									height="1">
+									<use xlink:href="#image0_24_2" transform="scale(0.00819672 0.00833333)" />
+								</pattern>
+								<image id="image0_24_2" width="122" height="120" preserveAspectRatio="none"
+									xlink:href="data:image/png;base64,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" />
+							</defs>
+						</svg>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="nextMain">
+			<div class="container">
+				<div class="nextMain">
+					<img src="./images/nextMain1.png" alt="">
+					<img src="./images/nextMain2.png" alt="">
+					<img src="./images/nextMain3.png" alt="">
+					<div class="textNext">
+						<h1>
+							Latest Artwork <br>
+							Frash Collection <br>
+							From Artist
+						</h1>
+						<button>View Item</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="best">
+			<div class="container">
+				<div class="best">
+					<div class="best-top">
+						<h3>Best Seller <ion-icon name="chevron-down-outline"></ion-icon></h3>
+						<div class="best-form">
+							Today
+							<span><ion-icon name="chevron-down-outline"></ion-icon></span>
+						</div>
+					</div>
+					<div class="best-cards"></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="explore">
+			<div class="container">
+				<div class="explore">
+					<div class="explore-top">
+						<h1>Explore</h1>
+						<div class="explore-right">
+							<span><ion-icon name="arrow-back-outline"></ion-icon></span>
+							<span class="top-left"><ion-icon name="arrow-forward-outline"></ion-icon></span>
+						</div>
+					</div>
+					<div class="explore-cards"></div>
+					<p class="explore-result"></p>
+				</div>
+			</div>
+		</section>
+
+		<section id="guide">
+			<div class="container">
+				<div class="guide">
+					<div class="guide-top">
+						<h3>NFTs Markeplace Guide</h3>
+						<div class="guide-form">
+							Full User Guidance Dtails
+							<span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+						</div>
+					</div>
+					<div class="guide-block">
+						<h2>
+							<span><ion-icon name="help-outline"></ion-icon></span>
+							What is Cryptmax NFT Marketplace?
+						</h2>
+						<p>
+							To list an NFT for sale, our team will first of all approve the content to make sure it’s
+							appropriate for listing. This process <br> usually takes 4-8 hours. Upon successful
+							approval,
+							your NFT will list immediately on the Marketplace as either an auction <br> or fixed price
+							sale,
+							according to your preference. Alternatively, you can also choose to list your NFT at a fixed
+							time (with a <br> minimum of 12 hours after approval).
+						</p>
+						<div class="guide-blockTwo">
+							<h3><span></span>Events: Buy premium and exclusive NFTs created by global leading
+								artists</h3>
+							<h3>Marketplace: Mint, purchase, and bid on NFTs from creators around the world</h3>
+							<h3>Mystery Box: Stand a chance to win rare NFTs in a box full of surprises</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="explore">
+			<div class="container">
+				<div class="explore">
+					<div class="explore-top">
+						<h1>Popular Artwork</h1>
+					</div>
+					<div class="explore-bn">
+						<div class="btnns">
+							<button>All Item</button>
+							<button>Art</button>
+							<button>Clebrities</button>
+							<button>Game</button>
+							<button>Music</button>
+							<button>Video</button>
+							<button>Crypto</button>
+						</div>
+						<div class="explore-bnn">
+							<button class="bnn1"><ion-icon name="funnel-outline"></ion-icon>Filter</button>
+							<button class="bnn2"> <ion-icon name="swap-vertical-outline"></ion-icon>Newest</button>
+						</div>
+					</div>
+
+					<div class="explore-cards"></div>
+					<p class="explore-result"></p>
+				</div>
+
+				<div class="end-but">
+					<button> <ion-icon name="reload-outline"></ion-icon>Load More</button>
+				</div>
+			</div>
+		</section>
+
+		<section id="colection">
+			<div class="container">
+				<div class="colection">
+					<h1>Hot collections</h1>
+					<div class="colection-cards"></div>
+					<p id="colection-result"></p>
+				</div>
+			</div>
+		</section>
+
+		<section id="crypto">
+			<div class="container">
+				<div class="crypto">
+					<div class="crypto-text">
+						<h2>SAVE YOUR TIME WITH STACKS</h2>
+						<h1>Start a Crypto Collecting <br>
+							and Sell Your Artwork
+						</h1>
+					</div>
+					<div class="crypto-btn">
+						<button>Create Item</button>
+						<button>Discover More</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="footer">
+				<div class="footer-logo">
+					<img src="./images/headerLogo.svg" alt="">
+					<p>
+						Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Quis <br> non, fugit totam vel
+						laboriosam <br>
+						vitae.
+					</p>
+					<div class="footer-nav">
+						<ion-icon name="logo-facebook"></ion-icon>
+						<ion-icon name="logo-twitter"></ion-icon>
+						<ion-icon name="logo-instagram"></ion-icon>
+						<ion-icon name="logo-linkedin"></ion-icon>
+					</div>
+				</div>
+
+				<div class="footer-navigate">
+					<h1>Cryptmax</h1>
+					<ul>
+						<li>
+							<a href="#">Discover</a>
+						</li>
+						<li>
+							<a href="#">Artwork</a>
+						</li>
+						<li>
+							<a href="#">Explore</a>
+						</li>
+						<li>
+							<a href="#">How it work</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-navigate">
+					<h1>Community</h1>
+					<ul>
+						<li>
+							<a href="#">FAQ</a>
+						</li>
+						<li>
+							<a href="#">Help Center</a>
+						</li>
+						<li>
+							<a href="#">Create item</a>
+						</li>
+						<li>
+							<a href="#">Give as a freedback</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-end">
+					<h1>Join Newsletter</h1>
+					<p>
+						Subscribe our newsletter to get <br> more free design course and <br> resource
+					</p>
+					<div class="footer-email">
+						<input type="email" placeholder="Enter your email">
+						<span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+#best {
+  padding: 100px 0;
+}
+
+.best-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h3 {
+    font-family: var(--font-DMSans);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--font-color-black);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    ion-icon {
+      font-size: 24px;
+      color: var(--font-color-black);
+    }
+  }
+  .best-form {
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    font-family: var(--font-DMSans);
+    border: 2px solid var(--font-color-gray);
+    border-radius: 8px;
+    color: var(--font-color-black);
+    background: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: #3772ff;
+      color: white;
+    }
+  }
+}
+
+.best-cards {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 262px;
+  height: 270px;
+  background: #f3f4f5;
+  border-radius: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  img {
+    position: absolute;
+    top: -40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  h4 {
+    margin-top: 20px;
+    font-family: var(--font-DMSans);
+    font-weight: 700;
+    font-size: 18px;
+  }
+  p {
+    font-family: var(--font-DMSans);
+    font-weight: 700;
+    font-size: 13px;
+  }
+  hr {
+    width: 80%;
+    height: 1px;
+    color: #dddddd;
+  }
+  button {
+    font-family: var(--font-DMSans);
+    font-weight: 700;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    border-radius: var(--border);
+    background: #9757d7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    ion-icon {
+      font-size: 13px;
+      border: 1.7px solid white;
+      border-radius: 4px;
+    }
+  }
+}
+
+.card-data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .card-first {
+    width: 60px;
+    height: 30px;
+    background: #3772ff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: white;
+    ion-icon {
+      font-size: 18px;
+      font-weight: 900;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+  .card-second {
+    background: #3772ff33;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #3772ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ion-icon {
+      font-size: 18px;
+    }
+  }
+  .card-third {
+    background: #3772ff33;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #3772ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ion-icon {
+      font-size: 18px;
+      font-weight: 900;
+    }
+  }
+}

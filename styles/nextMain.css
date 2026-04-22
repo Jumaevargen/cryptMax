@@ -1,0 +1,31 @@
+#nextMain {
+  padding: 100px 0;
+}
+
+.nextMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    border-radius: var(--border);
+  }
+}
+
+.textNext {
+  h1 {
+    font-family: var(--font-Poppins);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  button {
+    margin-top: 10px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: var(--border);
+    background: #3772ff;
+    font-family: var(--font-DMSans);
+    font-weight: 700;
+    font-size: 16px;
+  }
+}

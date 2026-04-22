@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./js/admin.js" defer></script>
+    <script src="./js/explore.js" defer></script>
+    <script src="./js/hot.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header">
+                <img src="./images/headerLogo.svg" alt="HEADER_LOGO_TYPE" />
+                <nav>
+                    <li>
+                        <a href="./main.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Artwork</a>
+                    </li>
+                    <li>
+                        <a href="#">Best seller</a>
+                    </li>
+                    <li>
+                        <a href="#">Admin</a>
+                    </li>
+                </nav>
+                <div class="header-form">
+                    <div class="header-form-input">
+                        <input type="text" placeholder="Search..." />
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                    <button><ion-icon name="log-in-outline"></ion-icon> Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="admin">
+            <div class="container">
+                <div class="admin">
+                    <input type="text" placeholder="URL" id="url">
+                    <input type="text" placeholder="NAME" id="name">
+                    <input type="text" placeholder="PRICE" id="price">
+                    <button id="SUBMIT">SUBMIT</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="adminTwo">
+            <div class="container">
+                <div class="form">
+                    <input class="explore-url" placeholder="Image URL">
+                    <input class="explore-title" placeholder="Title">
+                    <input class="explore-price" placeholder="Price">
+                    <input class="explore-category" placeholder="Category">
+                    <button class="explore-btn">Save</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="adminThree">
+            <div class="container">
+                <div class="adminThree">
+                    <input type="text" placeholder="URL OF PHOTO 1" id="hotOne-url">
+                    <input type="text" placeholder="URL OF PHOTO 2" id="hotTwo-url">
+                    <input type="text" placeholder="URL OF PHOTO 3" id="hotThree-url">
+                    <input type="text" placeholder="URL OF PHOTO 4" id="hotFour-url">
+                    <input type="text" placeholder="TITLE OF NAME" id="title-hot">
+                    <button id="BTN-HOT">SAVE</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

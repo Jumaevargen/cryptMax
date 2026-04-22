@@ -1,0 +1,230 @@
+#admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.admin {
+  margin-left: 350px;
+  background: #ffffff;
+  width: 100%;
+  max-width: 440px;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 2px 20px 50px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin::before {
+  content: 'Add New Users';
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+  text-align: center;
+}
+
+.admin input {
+  width: 100%;
+  height: 54px;
+  padding: 0 20px;
+  background: #f8f9fa;
+  border: 1.5px solid #eee;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.admin input:focus {
+  background: #fff;
+  border-color: #007aff; /* Apple-style blue */
+  box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+}
+
+.admin input::placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+#SUBMIT {
+  margin-top: 10px;
+  height: 54px;
+  background: darkorange;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#SUBMIT:hover {
+  background: red;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#SUBMIT:active {
+  transform: translateY(0);
+}
+
+/*! Admin TWO */
+
+#adminTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.form {
+  margin-left: 350px;
+  background: #ffffff;
+  width: 100%;
+  max-width: 440px;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 2px 20px 50px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form::before {
+  content: 'Add New Product';
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+  text-align: center;
+}
+
+.form input {
+  width: 100%;
+  height: 54px;
+  padding: 0 20px;
+  background: #f8f9fa;
+  border: 1.5px solid #eee;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.form input:focus {
+  background: #fff;
+  border-color: #007aff; /* Apple-style blue */
+  box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+}
+
+.form input::placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+.explore-btn {
+  margin-top: 10px;
+  height: 54px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.explore-btn:hover {
+  background: darkorange;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* !Admin Three */
+
+#adminThree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.adminThree {
+  margin-left: 350px;
+  background: #ffffff;
+  width: 100%;
+  max-width: 440px;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 2px 20px 50px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.adminThree::before {
+  content: 'Add New Product';
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+  text-align: center;
+}
+
+.adminThree input {
+  width: 100%;
+  height: 54px;
+  padding: 0 20px;
+  background: #f8f9fa;
+  border: 1.5px solid #eee;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.adminThree input:focus {
+  background: #fff;
+  border-color: #007aff; /* Apple-style blue */
+  box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+}
+
+.adminThree input::placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+#BTN-HOT {
+  margin-top: 10px;
+  height: 54px;
+  background: darkorange;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#BTN-HOT:hover {
+  background: red;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#BTN-HOT:active {
+  transform: translateY(0);
+}

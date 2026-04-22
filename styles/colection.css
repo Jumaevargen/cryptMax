@@ -1,0 +1,74 @@
+#colection {
+  padding: 50px 0;
+}
+.colection {
+  h1 {
+    font-family: var(--font-DMSans);
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+.colection-cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.colection-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h2 {
+    font-family: var(--font-Poppins);
+    font-weight: 600;
+    font-size: 25px;
+  }
+}
+
+.cards-img {
+  display: flex;
+  gap: 10px;
+  width: 330px;
+  height: 280px;
+
+  .main-img {
+    width: 270px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .cards-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90px;
+
+    img {
+      width: 100%;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+  }
+}
+
+.hot-end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  h5 {
+    font-family: var(--font-DMSans);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--font-color-gray);
+    span {
+      font-family: var(--font-DMSans);
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--font-color-black);
+    }
+  }
+}

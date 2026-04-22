@@ -1,0 +1,208 @@
+#explore {
+  padding: 50px 0;
+}
+
+.explore-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    font-family: var(--font-DMSans);
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+.explore-bn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+.btnns {
+  display: flex;
+  gap: 10px;
+  font-family: var(--font-DMSans);
+  font-weight: 500;
+  font-size: 14px;
+  button {
+    color: #888888;
+    border: 2px solid #cccccc;
+    background: transparent;
+    padding: 6px 12px;
+    border-radius: 6px;
+    &:focus {
+      background: #3772ff;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+    }
+  }
+}
+.explore-bnn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .bnn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    background: #3772ff;
+    width: 120px;
+    border-radius: 10px;
+    height: 50px;
+  }
+  .bnn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    background: #9757d7;
+    width: 140px;
+    border-radius: 10px;
+    height: 50px;
+    ion-icon {
+      font-size: 20px;
+    }
+  }
+}
+
+.explore-cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border-radius: var(--border);
+  position: relative;
+  transition: 0.3s;
+  img {
+    width: 270px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: var(--border);
+  }
+  .explore-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+      font-family: var(--font-Poppins);
+      font-weight: 500;
+      font-size: 16px;
+    }
+    h3 {
+      font-family: var(--font-DMSans);
+      font-weight: 700;
+      font-size: 11px;
+      color: #45b26b;
+      border: 2px solid #45b26b;
+      width: 60px;
+      height: 25px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .explore-people {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+      width: 44px;
+      height: 20px;
+    }
+    h6 {
+      font-family: var(--font-DMSans);
+      font-weight: 400;
+      font-size: 13px;
+      color: var(--font-color-gray);
+    }
+  }
+  .explore-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h4 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      font-family: var(--font-DMSans);
+      font-weight: 400;
+      font-size: 11px;
+      color: var(--font-color-gray);
+      span {
+        font-family: var(--font-DMSans);
+        font-weight: 700;
+        font-size: 11px;
+        color: #000;
+      }
+      ion-icon {
+        font-size: 18px;
+      }
+    }
+    button {
+      font-family: var(--font-DMSans);
+      font-weight: 500;
+      font-size: 11px;
+      color: #3772ff;
+      padding: 6px 10px;
+      background: #3772ff33;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+  .explore-like {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .explore-like:hover {
+    background: red;
+    ion-icon {
+      color: white;
+    }
+  }
+}
+
+.explore-cards > div:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.end-but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    background: #3772ff;
+    width: 140px;
+    border-radius: 10px;
+    height: 50px;
+  }
+}

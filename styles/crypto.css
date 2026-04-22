@@ -1,0 +1,61 @@
+#crypto {
+  padding: 90px 0;
+  background: #f6f7f8;
+}
+
+.crypto {
+  /* 1. Фон и общие размеры */
+  background: url('../images/cryptoFon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 100px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 400px;
+
+  .crypto-text {
+    max-width: 600px;
+
+    h2 {
+      font-family: var(--font-DMSans);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+
+    h1 {
+      font-family: var(--font-DMSans);
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 40px;
+    }
+  }
+
+  .crypto-btn {
+    display: flex;
+    gap: 16px;
+
+    button {
+      padding: 12px 24px;
+      border-radius: 10px; /* Скругленные кнопки */
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.3s;
+      background: #3772ff;
+      color: white;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(55, 114, 255, 0.3);
+      }
+    }
+  }
+}
