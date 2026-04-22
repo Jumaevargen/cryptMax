@@ -45,7 +45,7 @@ function addToBasket(data) {
   const yes = basket.find((item) => item.name === data.name);
 
   if (yes) {
-    yes.count = (yes.caunt || 1) + 1;
+    yes.count = (yes.count || 1) + 1;
   } else {
     basket.push({
       ...data,
