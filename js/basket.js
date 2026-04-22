@@ -5,7 +5,8 @@ function RENDER_BASKET_PRODUCTS(data) {
   if (!Array.isArray(data)) return 'ERROR';
 
   if (data.length === 0) {
-    return 'Ваше корзина пустая';
+    BASKET_CARDS.textContent = 'Ваша корзина пуста';
+    return;
   }
 
   BASKET_CARDS.innerHTML = '';
@@ -38,8 +39,7 @@ BASKET_CARDS.addEventListener('click', (e) => {
 function DELETE_ITEM(id) {
   const ITEM_ID = Number(id);
   BASKET = BASKET.filter((el) => el.id !== ITEM_ID);
-  localStorage.setItem;
-  ('basket', JSON.stringify(BASKET));
+  localStorage.setItem('basket', JSON.stringify(BASKET));
   RENDER_BASKET_PRODUCTS(BASKET);
 }
 RENDER_BASKET_PRODUCTS(BASKET);
