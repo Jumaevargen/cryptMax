@@ -1,0 +1,50 @@
+#basket {
+  padding: 50px 0;
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .basket-cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 200px;
+    height: auto;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    h3 {
+      font-family: var(--font-Poppins);
+      font-size: 18px;
+      font-weight: 600;
+    }
+    p {
+      font-family: var(--font-DMSans);
+      font-size: 16px;
+      font-weight: 500;
+    }
+    button {
+      padding: 3px 15px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      background: transparent;
+      color: black;
+      font-family: var(--font-DMSans);
+      font-size: 16px;
+      font-weight: 500;
+      transition: 0.3s;
+      &:hover {
+        background: red;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        color: white;
+      }
+    }
+    img {
+      border-radius: 10px;
+    }
+  }
+}
